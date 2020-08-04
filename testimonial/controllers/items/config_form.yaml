@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Item
+
+# Model Form Field configuration
+form: $/brandit/testimonial/models/item/fields.yaml
+
+# Model Class name
+modelClass: BrandIt\Testimonial\Models\Item
+
+# Default redirect location
+defaultRedirect: brandit/testimonial/items
+
+# Create page
+create:
+    title: Create Item
+    redirect: brandit/testimonial/items/update/:id
+    redirectClose: brandit/testimonial/items
+
+# Update page
+update:
+    title: Edit Item
+    redirect: brandit/testimonial/items
+    redirectClose: brandit/testimonial/items
+
+# Preview page
+preview:
+    title: Preview Item

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Tag
+
+# Model Form Field configuration
+form: $/brandit/testimonial/models/tag/fields.yaml
+
+# Model Class name
+modelClass: BrandIt\Testimonial\Models\Tag
+
+# Default redirect location
+defaultRedirect: brandit/testimonial/tags
+
+# Create page
+create:
+    title: Create Tag
+    redirect: brandit/testimonial/tags/update/:id
+    redirectClose: brandit/testimonial/tags
+
+# Update page
+update:
+    title: Edit Tag
+    redirect: brandit/testimonial/tags
+    redirectClose: brandit/testimonial/tags
+
+# Preview page
+preview:
+    title: Preview Tag

@@ -1,0 +1,10 @@
+1.0.1: First version of Testimonial
+
+1.0.2: 
+    - Migration
+    
+1.0.3: 
+    - Migration
+    - create_items_table.php
+    - create_tags_table.php
+    - create_items_tags_table.php
